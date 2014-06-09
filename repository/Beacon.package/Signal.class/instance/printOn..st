@@ -3,4 +3,4 @@ printOn: stream
 	super printOn: stream.
 	stream 
 		space;
-		nextPutAll: timestamp asString
+		nextPutAll: self timestamp asString
