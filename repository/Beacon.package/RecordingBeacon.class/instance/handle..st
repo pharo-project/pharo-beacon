@@ -1,4 +1,5 @@
 accessing
 handle: anAnnoucement
-	self recordings add: anAnnoucement.
+	mutex critical: [
+		recordings add: anAnnoucement ].
 	self announcer announce: anAnnoucement
