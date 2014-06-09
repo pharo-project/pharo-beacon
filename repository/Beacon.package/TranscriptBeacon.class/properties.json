@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "TudorGirba 6/9/2014 01:49",
-	"super" : "StreamBeacon",
+	"super" : "StringStreamBeacon",
 	"category" : "Beacon-Bindings",
 	"classinstvars" : [ ],
 	"pools" : [ ],

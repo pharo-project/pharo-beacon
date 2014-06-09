@@ -1,5 +1,5 @@
 Example:
 	String streamContents: [ :stream |
-		(CustomStreamBeacon with: stream)
+		(CustomStringStreamBeacon with: stream)
 			runDuring: [ 
 				MessageSignal log: 'This is a message' ] ]

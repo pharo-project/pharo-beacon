@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "StreamBeacon",
+	"name" : "StringStreamBeacon",
 	"type" : "normal"
 }
