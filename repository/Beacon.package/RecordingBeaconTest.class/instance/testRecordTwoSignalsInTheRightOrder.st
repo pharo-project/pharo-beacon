@@ -5,6 +5,6 @@ testRecordTwoSignalsInTheRightOrder
 					runDuring: [ 
 						MessageSignal log: 'test1'.
 						MessageSignal log: 'test2' ].
-	self assert: beacon recordedAnnouncements size = 2.
-	self assert: beacon recordedAnnouncements first message = 'test1'.
-	self assert: beacon recordedAnnouncements last message = 'test2'
+	self assert: beacon recordings size = 2.
+	self assert: beacon recordings first message = 'test1'.
+	self assert: beacon recordings last message = 'test2'

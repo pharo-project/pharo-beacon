@@ -1,4 +1,9 @@
 This is a convenience signal to record the current stack.
 
-Example:
+Usage:
 	CurrentStackSignal log
+	
+Full Example:
+	TransmitBeacon new 
+		runDuring: [ 
+			CurrentStackSignal log ].

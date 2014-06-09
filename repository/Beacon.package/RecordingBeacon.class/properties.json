@@ -1,12 +1,12 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "TudorGirba 6/9/2014 00:50",
 	"super" : "BoundedBeacon",
 	"category" : "Beacon-Bindings",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"recordedAnnouncements"
+		"recordings"
 	],
 	"name" : "RecordingBeacon",
 	"type" : "normal"

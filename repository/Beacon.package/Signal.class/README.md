@@ -1,1 +1,1 @@
-An announcement that records the timestamp of its creation. It is specifically useful in the context of logging.
+An announcement that records the timestamp of its creation. It is specifically useful in the context of logging, and it serves as the superclass for the typical signals.
