@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "TudorGirba 6/8/2014 23:00",
+	"super" : "Announcement",
+	"category" : "Beacon-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"timestamp"
+	],
+	"name" : "Signal",
+	"type" : "normal"
+}

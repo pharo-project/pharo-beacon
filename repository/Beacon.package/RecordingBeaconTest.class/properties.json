@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "Beacon-Tests",
+	"classinstvars" : [
+		"previousRecordings"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "RecordingBeaconTest",
+	"type" : "normal"
+}

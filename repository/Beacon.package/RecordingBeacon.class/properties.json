@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "BoundedBeacon",
+	"category" : "Beacon-Bindings",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"recordedAnnouncements"
+	],
+	"name" : "RecordingBeacon",
+	"type" : "normal"
+}
