@@ -1,3 +1,3 @@
 *Beacon-Core
 log
-	Beacon announce: self
+	Beacon announce: self asBeaconSignal
