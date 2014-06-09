@@ -1,3 +1,3 @@
 registering
 start
-	self startFor: Signal 
+	self startFor: BeaconSignal 

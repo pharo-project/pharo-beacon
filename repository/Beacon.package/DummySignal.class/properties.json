@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "TudorGirba 6/9/2014 01:10",
-	"super" : "Signal",
+	"super" : "BeaconSignal",
 	"category" : "Beacon-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
