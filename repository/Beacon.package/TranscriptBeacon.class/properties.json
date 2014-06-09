@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "TudorGirba 6/9/2014 00:52",
-	"super" : "BoundedBeacon",
+	"commentStamp" : "TudorGirba 6/9/2014 01:49",
+	"super" : "StreamBeacon",
 	"category" : "Beacon-Bindings",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "TransmitBeacon",
+	"name" : "TranscriptBeacon",
 	"type" : "normal"
 }

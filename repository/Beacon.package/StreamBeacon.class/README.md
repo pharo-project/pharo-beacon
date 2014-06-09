@@ -1,0 +1,1 @@
+This is an abstract beacon that forwards to a string stream all signals that it receives.
