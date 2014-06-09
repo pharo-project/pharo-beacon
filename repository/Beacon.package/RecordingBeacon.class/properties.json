@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"recordings"
+		"recordings",
+		"announcer"
 	],
 	"name" : "RecordingBeacon",
 	"type" : "normal"

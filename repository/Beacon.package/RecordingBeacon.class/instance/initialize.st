@@ -1,3 +1,4 @@
 initialize
 initialize
-	self reset
+	self reset.
+	announcer := Announcer new
