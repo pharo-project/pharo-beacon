@@ -1,6 +1,3 @@
 printing
 printOn: stream
-	super printOn: stream.
-	stream 
-		space;
-		nextPutAll: self timestamp asString
+	self printOneLineOn: stream
