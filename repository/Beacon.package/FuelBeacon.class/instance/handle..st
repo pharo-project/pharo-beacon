@@ -2,4 +2,4 @@ registering
 handle: aSignal
 	FLSerializer 
 		serialize: aSignal 
-		toFileNamed: aSignal timestamp
+		toFileNamed: aSignal timestamp asString, '.fuel'
