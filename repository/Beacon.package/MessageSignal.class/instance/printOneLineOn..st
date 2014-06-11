@@ -1,4 +1,4 @@
-as yet unclassified
+printing
 printOneLineOn: stream
 	super printOneLineOn: stream.
 	stream 
