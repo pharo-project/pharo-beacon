@@ -3,5 +3,5 @@ gtExampleInstanceUsage
 	<gtExample>
 	^ RecordingBeacon new 
 		runDuring: [ 
-			MessageSignal log: 'This is a message'.
-			MessageSignal log: 'This is another message'. ]	
+			StringSignal log: 'This is a message'.
+			StringSignal log: 'This is another message'. ]	
