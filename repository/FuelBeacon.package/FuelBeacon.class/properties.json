@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "TudorGirba 6/11/2014 22:44",
+	"super" : "BoundedBeacon",
+	"category" : "FuelBeacon",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"directory"
+	],
+	"name" : "FuelBeacon",
+	"type" : "normal"
+}
