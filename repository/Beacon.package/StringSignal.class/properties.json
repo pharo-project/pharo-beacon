@@ -8,6 +8,6 @@
 	"instvars" : [
 		"message"
 	],
-	"name" : "MessageSignal",
+	"name" : "StringSignal",
 	"type" : "normal"
 }

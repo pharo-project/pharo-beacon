@@ -1,5 +1,5 @@
 tests
 testAsBeaconSignalDoesNotAffectAnExistingSignal
 	| signal |
-	signal := MessageSignal new.
+	signal := StringSignal new.
 	self assert: signal asBeaconSignal = signal

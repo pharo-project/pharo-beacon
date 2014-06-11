@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 on: aTargetObject
 	^ self new 
 		target: aTargetObject 
