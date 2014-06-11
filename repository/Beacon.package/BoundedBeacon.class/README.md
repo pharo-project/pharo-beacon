@@ -6,7 +6,7 @@ The global instance of a concrete bounded beacon is useful to provide a simple m
 
 For example, consider:
 	TranscriptBeacon start.
-	MessageSignal log: 'test'.
+	StringSignal log: 'test'.
 	...
 	TranscriptBeacon stop.
 	
