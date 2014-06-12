@@ -1,4 +1,3 @@
 registering
 stop
-	Beacon instance announcer 
-		unsubscribe: self
+	self beacon unsubscribe: self
