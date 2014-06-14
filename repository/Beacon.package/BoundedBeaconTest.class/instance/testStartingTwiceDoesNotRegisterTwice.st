@@ -1,8 +1,14 @@
 tests
 testStartingTwiceDoesNotRegisterTwice
-	Beacon resetInstance.
+	| initialNumberOfSubscriptions |
+	initialNumberOfSubscriptions := Beacon instance announcer numberOfSubscriptions.
+	BoundedBeacon resetInstance.
 	BoundedBeacon start.
 	BoundedBeacon start.
-	self assert: Beacon instance announcer numberOfSubscriptions = 1.
+	self 
+		assert: Beacon instance announcer numberOfSubscriptions 
+		equals: initialNumberOfSubscriptions + 1.
 	BoundedBeacon stop.
-	self assert: Beacon instance announcer numberOfSubscriptions = 0
+	self 
+		assert: Beacon instance announcer numberOfSubscriptions 
+		equals: initialNumberOfSubscriptions
