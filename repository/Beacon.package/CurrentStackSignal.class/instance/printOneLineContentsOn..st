@@ -1,6 +1,6 @@
 printing
-printOneLineOn: stream
-	super printOneLineOn: stream.
+printOneLineContentsOn: stream
+	super printOneLineContentsOn: stream.
 	stream space.
 	stream nextPutAll: (self stack first asString 
 					copyReplaceAll: String cr 
