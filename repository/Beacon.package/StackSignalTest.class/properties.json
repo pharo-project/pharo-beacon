@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "CurrentStackSignalTest",
+	"name" : "StackSignalTest",
 	"type" : "normal"
 }

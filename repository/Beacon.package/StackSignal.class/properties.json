@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "TudorGirba 6/9/2014 01:20",
+	"commentStamp" : "TudorGirba 6/15/2014 07:08",
 	"super" : "BeaconSignal",
 	"category" : "Beacon-Core",
 	"classinstvars" : [ ],
@@ -8,6 +8,6 @@
 	"instvars" : [
 		"stack"
 	],
-	"name" : "CurrentStackSignal",
+	"name" : "StackSignal",
 	"type" : "normal"
 }
