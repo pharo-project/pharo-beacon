@@ -5,4 +5,6 @@ baseline01: spec
 	spec for: #'common' do: [
 		spec blessing: #'baseline'.
 		spec repository: 'http://smalltalkhub.com/mc/girba/Beacon/main/'.
-		spec package: #Beacon. ].
+		spec 
+			package: #Beacon;
+			package: #FuelBeacon. ].
