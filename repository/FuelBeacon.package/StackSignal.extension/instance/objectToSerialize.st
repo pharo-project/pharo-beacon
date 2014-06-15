@@ -5,5 +5,7 @@ objectToSerialize
 	trimmedCopy := self copy.
 	trimmedCopy 
 		instVarNamed: #stack
-		put: (self stack first: 100).
+		put: (self stack size > 100 
+				ifTrue: [self stack first: 100] 
+				ifFalse: [self stack]).
 	^ trimmedCopy
