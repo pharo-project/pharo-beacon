@@ -1,3 +1,3 @@
 printing
 printOn: stream
-	self printOneLineOn: stream
+	self printOneLineContentsOn: stream
