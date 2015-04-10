@@ -1,5 +1,4 @@
 registering
 handle: anAnnoucement
-	self stream 
-		nextPutAll: anAnnoucement printString;
-		cr
+	anAnnoucement printOn: self stream.
+	self stream cr
