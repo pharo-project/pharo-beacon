@@ -1,3 +1,3 @@
-as yet unclassified
+printing
 printOneLineContentsOn: stream
 	self target printOn: stream 
