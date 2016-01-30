@@ -1,5 +1,5 @@
 testing
 testRemovesIrrelevantStackEntriesFromOnTop
 	| signal |
-	signal := StackSignal log.
+	signal := MethodStackSignal log.
 	self assert: signal stack first = thisContext stack first method asRingDefinition

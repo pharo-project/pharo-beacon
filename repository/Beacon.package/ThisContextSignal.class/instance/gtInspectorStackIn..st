@@ -1,6 +1,6 @@
 ui
 gtInspectorStackIn: composite
-	<gtInspectorPresentationOrder: 40>
+	<gtInspectorPresentationOrder: 0>
 	composite list 
 		title: 'Stack';
 		display: [ self stack ]

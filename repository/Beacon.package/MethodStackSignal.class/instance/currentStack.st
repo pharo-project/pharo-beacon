@@ -1,5 +1,5 @@
 initialize
-currentStackAsRingDefinitions
+currentStack
 	| stackWithoutSelf |
 	stackWithoutSelf := thisContext stack reject: [ :each | 
 								each receiver = self or: [ 

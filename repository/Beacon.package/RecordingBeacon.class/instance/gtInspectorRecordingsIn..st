@@ -1,6 +1,6 @@
 ui
 gtInspectorRecordingsIn: composite
-	<gtInspectorPresentationOrder: 40>
+	<gtInspectorPresentationOrder: 0>
 	composite table 
 		title: 'Recordings';
 		display: [ self recordings reverse ];
