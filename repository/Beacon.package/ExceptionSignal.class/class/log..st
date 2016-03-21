@@ -1,3 +1,5 @@
 instance creation
 log: anException
-	^ (self on: anException) log
+	^ (self new 
+		exception: anException; 
+		stack: (anException signalerContext stack collect: [:each | each sourceNodeExecuted])) log

@@ -1,6 +1,9 @@
 as yet unclassified
 gtInspectorStackIn: composite
 	<gtInspectorPresentationOrder: 0>
-	composite list 
+	composite fastTable
 		title: 'Stack';
-		display: [ self exception privHandlerContext stack ]
+		display: [ self stack ];
+		column: 'Class' evaluated: [:each | each parents first methodClass ];
+		column: 'Method' evaluated: [:each | each parents first selector];
+		column: 'Code' evaluated: [:each | each formattedCode]
