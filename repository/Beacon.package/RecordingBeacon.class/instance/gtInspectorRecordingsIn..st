@@ -9,10 +9,7 @@ gtInspectorRecordingsIn: composite
 		column: 'Type' evaluated: [ :each | each name ];
 		column: 'Contents' evaluated: [ :each | String streamContents: [ :s | each printOneLineContentsOn: s ] ];
 		showOnly: 50;
-		beMultiple;
-		send: [ :selection | 
-			(selection isNil or: [ selection size > 1 ] )
-				ifFalse: [selection first] ifTrue: [selection]] ;
+"		beMultiple;"
 		updateOn: Announcement from: [ self announcer ];
 		selectionAct: [ :table | 
 			recordings := self recordings \ table selection.
