@@ -1,7 +1,7 @@
 ui
 gtInspectorRecordingsIn: composite
 	<gtInspectorPresentationOrder: 0>
-	composite table 
+	composite fastTable 
 		title: 'Recordings';
 		display: [ self recordings reverse ];
 		column: 'Timestamp' evaluated: [ :each | each timestamp asString ];
