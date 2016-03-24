@@ -4,9 +4,9 @@ gtInspectorRecordingsIn: composite
 	composite fastTable 
 		title: 'Recordings';
 		display: [ self recordings reverse ];
-		column: 'Timestamp' evaluated: [ :each | each timestamp asString ];
+		column: 'Timestamp' evaluated: [ :each | each timestamp asString ] width: 80;
 		column: 'Process' evaluated: [ :each | each processId asString ];
-		column: 'Type' evaluated: [ :each | each name ];
+		column: 'Type' evaluated: [ :each | each name ] width: 80;
 		column: 'Contents' evaluated: [ :each | String streamContents: [ :s | each printOneLineContentsOn: s ] ];
 		showOnly: 50;
 "		beMultiple;"
