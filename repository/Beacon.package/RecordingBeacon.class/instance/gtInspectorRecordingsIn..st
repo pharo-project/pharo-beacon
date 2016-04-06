@@ -1,6 +1,8 @@
 ui
 gtInspectorRecordingsIn: composite
 	<gtInspectorPresentationOrder: 0>
+	| live |
+	live := true.
 	composite fastTable 
 		title: 'Recordings';
 		display: [ self recordings reverse ];
@@ -20,4 +22,14 @@ gtInspectorRecordingsIn: composite
 			self reset.
 			table update ]
 			icon: GLMUIThemeExtraIcons glamorousRemove
-			entitled: 'Remove all'
+			entitled: 'Remove all';
+		dynamicActions: [ :t |
+			{
+				GLMGenericAction new
+					action: [ t unregisterFromAllAnnouncements. t pane updateToolbar  ];
+					icon: GLMUIThemeExtraIcons glamorousRedCircle;
+					title: 'Stop' .
+				GLMGenericAction new
+					action: [ t pane update ];
+					icon: GLMUIThemeExtraIcons glamorousGreenCircle;
+					title: 'Play' }]
