@@ -5,9 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"stream"
-	],
-	"name" : "CustomStringStreamBeacon",
+	"instvars" : [ ],
+	"name" : "TranscriptLogger",
 	"type" : "normal"
 }

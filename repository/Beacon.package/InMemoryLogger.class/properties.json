@@ -1,13 +1,15 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "StringStreamLogger",
+	"super" : "SignalLogger",
 	"category" : "Beacon-Loggers",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"stream"
+		"recordings",
+		"announcer",
+		"mutex"
 	],
-	"name" : "CustomStringStreamBeacon",
+	"name" : "InMemoryLogger",
 	"type" : "normal"
 }

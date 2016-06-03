@@ -6,8 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"timestamp",
-		"processId"
+		"timestamp"
 	],
 	"name" : "BeaconSignal",
 	"type" : "normal"
