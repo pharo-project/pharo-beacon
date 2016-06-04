@@ -1,3 +1,4 @@
 initialization
 initialize
-	timestamp := DateAndTime now
+	timestamp := DateAndTime now.
+	processId := Processor activeProcess name

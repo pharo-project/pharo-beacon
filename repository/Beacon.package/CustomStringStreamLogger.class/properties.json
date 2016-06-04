@@ -8,6 +8,6 @@
 	"instvars" : [
 		"stream"
 	],
-	"name" : "CustomStringStreamBeacon",
+	"name" : "CustomStringStreamLogger",
 	"type" : "normal"
 }
