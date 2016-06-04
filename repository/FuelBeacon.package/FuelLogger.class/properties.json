@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "TudorGirba 6/14/2014 17:49",
-	"super" : "BoundedBeacon",
+	"super" : "SignalLogger",
 	"category" : "FuelBeacon-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
@@ -8,6 +8,6 @@
 	"instvars" : [
 		"directory"
 	],
-	"name" : "FuelBeacon",
+	"name" : "FuelLogger",
 	"type" : "normal"
 }

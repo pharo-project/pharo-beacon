@@ -3,5 +3,5 @@ setUp
 	directory := FileSystem disk workingDirectory / 'testfuelbeacon'.
 	self deleteDirectory.
 	directory ensureCreateDirectory.
-	fuelBeacon := FuelBeacon on: directory.
+	fuelBeacon := FuelLogger on: directory.
 	fuelBeacon start
