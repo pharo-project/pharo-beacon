@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "TudorGirba 6/14/2014 17:49",
-	"super" : "SignalLogger",
+	"super" : "AnObsoleteSignalLogger",
 	"category" : "FuelBeacon-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
