@@ -7,4 +7,4 @@ baseline02: spec
 		spec repository: 'http://smalltalkhub.com/mc/Pharo/Beacon/main/'.
 		spec 
 			package: #Beacon;
-			package: #FuelBeacon. ].
+			package: #FuelBeacon with: [ spec requires: #(#Beacon) ] . ].
