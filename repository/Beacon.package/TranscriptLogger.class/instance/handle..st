@@ -1,4 +1,3 @@
 registering
-handle: anAnnoucement
-	super handle: anAnnoucement.
-	Transcript endEntry
+handle: anAnnouncement
+	Transcript crShow: anAnnouncement

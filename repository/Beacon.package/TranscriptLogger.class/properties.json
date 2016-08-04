@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "StringStreamLogger",
+	"super" : "SignalLogger",
 	"category" : "Beacon-Loggers",
 	"classinstvars" : [ ],
 	"pools" : [ ],
