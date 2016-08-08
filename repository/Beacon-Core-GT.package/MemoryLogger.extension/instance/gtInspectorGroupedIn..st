@@ -1,4 +1,4 @@
-*Beacon-Core-GT
+*beacon-core-gt
 gtInspectorGroupedIn: composite
 	<gtInspectorPresentationOrder: 1>
 	composite fastTable 

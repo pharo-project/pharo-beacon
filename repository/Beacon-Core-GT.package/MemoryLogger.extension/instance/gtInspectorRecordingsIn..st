@@ -1,4 +1,4 @@
-*Beacon-Core-GT
+*beacon-core-gt
 gtInspectorRecordingsIn: composite
 	<gtInspectorPresentationOrder: 0>
 	| live |
