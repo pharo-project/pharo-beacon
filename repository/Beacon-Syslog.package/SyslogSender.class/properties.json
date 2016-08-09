@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "StephaneDucasse 2/23/2014 20:26",
+	"super" : "FormattingLogger",
+	"category" : "Beacon-Syslog",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"hosts",
+		"facility",
+		"hostName"
+	],
+	"name" : "SyslogSender",
+	"type" : "normal"
+}

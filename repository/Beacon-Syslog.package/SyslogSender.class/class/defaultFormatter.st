@@ -1,4 +1,3 @@
 defaults
 defaultFormatter
-
-	^ SignalFormatter new
+	^ SyslogFormatter new

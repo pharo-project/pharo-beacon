@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "StephaneDucasse 1/30/2014 20:56",
-	"super" : "SignalLogger",
+	"commentStamp" : "NorbertHartl 8/9/2016 17:18",
+	"super" : "StringSignal",
 	"category" : "Beacon-Syslog",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"formatter"
+		"level",
+		"tag"
 	],
-	"name" : "FormattingLogger",
+	"name" : "SyslogSignal",
 	"type" : "normal"
 }
