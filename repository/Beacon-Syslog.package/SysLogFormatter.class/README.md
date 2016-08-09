@@ -1,0 +1,1 @@
+May be the Log class should be extended with the sender notion?

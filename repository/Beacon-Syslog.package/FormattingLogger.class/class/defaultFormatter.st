@@ -1,0 +1,4 @@
+defaults
+defaultFormatter
+
+	^ LogFormatter new

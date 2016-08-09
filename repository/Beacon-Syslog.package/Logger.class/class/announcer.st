@@ -1,0 +1,4 @@
+accessing
+announcer
+
+	^ SystemAnnouncer uniqueInstance

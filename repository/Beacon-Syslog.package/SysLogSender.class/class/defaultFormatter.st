@@ -1,0 +1,3 @@
+defaults
+defaultFormatter
+	^ SysLogFormatter new
