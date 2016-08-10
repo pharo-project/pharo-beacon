@@ -1,3 +1,3 @@
 *beacon-syslog
-level
+defaultLevel
 	^ LogLevel error

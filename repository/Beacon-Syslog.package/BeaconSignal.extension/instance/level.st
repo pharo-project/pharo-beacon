@@ -1,3 +1,3 @@
 *beacon-syslog
 level
-	^ LogLevel info
+	^ self properties at: #level ifAbsent: [ self defaultLevel ]
