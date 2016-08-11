@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "StephaneDucasse 1/30/2014 20:56",
+	"super" : "SignalLogger",
+	"category" : "Beacon-Loggers",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"formatter"
+	],
+	"name" : "FormattingLogger",
+	"type" : "normal"
+}
