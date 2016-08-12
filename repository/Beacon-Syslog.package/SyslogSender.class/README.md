@@ -1,11 +1,16 @@
-Logger that outputs sysLog logs via UDP.
+Logger that outputs sysLog messages via UDP.
 
+To add a syslog logger do:
 
+SyslogSender new 
+	addHost: 'localhost'.
 
-[[[
-| logger |
-logger := SysLogSender new addHost: 'localhost' port: 514
-Log dispatcher addLogger: logger.
-Log dispatcher startAllLoggers.
-]]]
+To send a syslog message use
+	
+StringSignal new
+	message: 'a message to be logged';
+	tag: 'syslog-tag';
+	level: LogLevel info;
+	log
 
+#tag: and #level: are extension methods to StringSignal to be able to use syslog specific parameters
