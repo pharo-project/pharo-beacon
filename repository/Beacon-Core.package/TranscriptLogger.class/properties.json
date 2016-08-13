@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "SignalLogger",
+	"category" : "Beacon-Core-Loggers",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TranscriptLogger",
+	"type" : "normal"
+}

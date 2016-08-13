@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "TudorGirba 1/30/2016 08:52",
+	"super" : "ThisContextSignal",
+	"category" : "Beacon-Core-Signals",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ContextStackSignal",
+	"type" : "normal"
+}

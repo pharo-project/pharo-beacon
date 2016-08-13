@@ -1,0 +1,4 @@
+defaults
+defaultFormatter
+
+	^ SignalFormatter new

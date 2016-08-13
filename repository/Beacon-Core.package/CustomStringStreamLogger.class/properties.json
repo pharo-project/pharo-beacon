@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "StringStreamLogger",
+	"category" : "Beacon-Core-Loggers",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"stream"
+	],
+	"name" : "CustomStringStreamLogger",
+	"type" : "normal"
+}

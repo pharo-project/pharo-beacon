@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "TudorGirba 3/21/2016 17:24",
+	"super" : "BeaconSignal",
+	"category" : "Beacon-Core-Signals",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"exception",
+		"stack"
+	],
+	"name" : "ExceptionSignal",
+	"type" : "normal"
+}
