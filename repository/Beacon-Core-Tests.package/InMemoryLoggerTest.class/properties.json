@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TestCase",
+	"category" : "Beacon-Core-Tests",
+	"classinstvars" : [
+		"previousRecordings"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "InMemoryLoggerTest",
+	"type" : "normal"
+}
