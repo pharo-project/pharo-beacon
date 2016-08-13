@@ -4,7 +4,7 @@ baseline01: spec
 
 	spec for: #'common' do: [
 		spec blessing: #'baseline'.
-		spec repository: 'http://smalltalkhub.com/mc/girba/Beacon/main/'.
+		spec repository: 'http://smalltalkhub.com/mc/Pharo/Beacon/main/'.
 		spec 
 			package: #'Beacon-Core';
 			package: #'Beacon-Core-Tests' with: [ spec requires: 'Beacon-Core' ];
