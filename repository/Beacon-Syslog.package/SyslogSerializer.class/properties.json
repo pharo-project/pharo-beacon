@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "StephaneDucasse 2/22/2014 21:44",
-	"super" : "SignalFormatter",
+	"super" : "SignalSerializer",
 	"category" : "Beacon-Syslog",
 	"classinstvars" : [ ],
 	"pools" : [ ],
@@ -8,6 +8,6 @@
 	"instvars" : [
 		"converter"
 	],
-	"name" : "SyslogFormatter",
+	"name" : "SyslogSerializer",
 	"type" : "normal"
 }

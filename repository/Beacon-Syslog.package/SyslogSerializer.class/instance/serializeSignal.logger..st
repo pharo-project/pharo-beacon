@@ -1,5 +1,5 @@
 format
-formatSignal: aSignal logger: aLogger
+serializeSignal: aSignal logger: aLogger
 	"timestamp is rounded because the syslog format has only second precision"
 	| stream  |
 	stream := MultiByteBinaryOrTextStream on: ByteArray new.

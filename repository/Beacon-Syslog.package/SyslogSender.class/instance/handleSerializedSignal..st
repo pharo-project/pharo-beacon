@@ -1,4 +1,4 @@
 operations
-handleConvertedSignal: aString
+handleSerializedSignal: aString
 
 	hosts do: [:host | self send: aString to: host key port: host value]
