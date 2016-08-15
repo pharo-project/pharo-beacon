@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "StringStreamLogger",
+	"super" : "StreamLogger",
 	"category" : "Beacon-Core-Loggers",
 	"classinstvars" : [ ],
 	"pools" : [ ],
@@ -8,6 +8,6 @@
 	"instvars" : [
 		"stream"
 	],
-	"name" : "CustomStringStreamLogger",
+	"name" : "CustomStreamLogger",
 	"type" : "normal"
 }

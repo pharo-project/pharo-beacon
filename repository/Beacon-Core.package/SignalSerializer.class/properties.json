@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "SignalFormatter",
+	"name" : "SignalSerializer",
 	"type" : "normal"
 }

@@ -1,4 +1,4 @@
 initialize
 initialize 
 	super initialize.
-	formatter := self defaultFormatter.
+	serializer := self defaultSerializer.

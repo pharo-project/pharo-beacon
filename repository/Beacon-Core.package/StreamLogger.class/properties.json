@@ -1,13 +1,13 @@
 {
-	"commentStamp" : "StephaneDucasse 1/30/2014 20:56",
+	"commentStamp" : "TudorGirba 6/9/2014 01:48",
 	"super" : "SignalLogger",
 	"category" : "Beacon-Core-Loggers",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"formatter"
+		"serializer"
 	],
-	"name" : "FormattingLogger",
+	"name" : "StreamLogger",
 	"type" : "normal"
 }
