@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "NorbertHartl 8/15/2016 16:20",
 	"super" : "StreamLogger",
 	"category" : "Beacon-File",
 	"classinstvars" : [ ],
