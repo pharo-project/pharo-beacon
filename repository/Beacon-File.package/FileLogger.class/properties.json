@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "StreamLogger",
+	"category" : "Beacon-File",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"fileReference",
+		"encoding",
+		"binary",
+		"stream"
+	],
+	"name" : "FileLogger",
+	"type" : "normal"
+}
