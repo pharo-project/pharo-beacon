@@ -1,0 +1,3 @@
+operations
+handleSerializedSignal: anObject
+	self subclassResponsibility 

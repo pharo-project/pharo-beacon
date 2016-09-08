@@ -1,3 +1,4 @@
 registering
-handle: anAnnoucement
+handle: aSignal
 	self subclassResponsibility 
+	
