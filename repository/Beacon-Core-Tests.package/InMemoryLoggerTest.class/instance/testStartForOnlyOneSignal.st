@@ -1,7 +1,7 @@
 testing
 testStartForOnlyOneSignal
 	| logger |
-	logger := InMemoryLogger new.
+	logger := MemoryLogger new.
 	logger runFor: StringSignal during: [ 
 		StringSignal log: 'This should be recorded.'.
 		MethodStackSignal log ].

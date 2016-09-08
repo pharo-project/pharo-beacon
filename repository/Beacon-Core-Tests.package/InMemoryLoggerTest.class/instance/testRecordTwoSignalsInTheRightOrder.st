@@ -1,7 +1,7 @@
 testing
 testRecordTwoSignalsInTheRightOrder
 	| logger |
-	logger := InMemoryLogger new 
+	logger := MemoryLogger new 
 					runDuring: [ 
 						StringSignal log: 'test1'.
 						StringSignal log: 'test2' ].
