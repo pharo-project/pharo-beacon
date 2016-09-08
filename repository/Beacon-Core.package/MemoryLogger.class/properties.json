@@ -10,6 +10,6 @@
 		"announcer",
 		"mutex"
 	],
-	"name" : "InMemoryLogger",
+	"name" : "MemoryLogger",
 	"type" : "normal"
 }
