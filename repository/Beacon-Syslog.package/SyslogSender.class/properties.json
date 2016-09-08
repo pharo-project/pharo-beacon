@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "NorbertHartl 8/12/2016 16:24",
-	"super" : "SignalLogger",
+	"super" : "SerializingLogger",
 	"category" : "Beacon-Syslog",
 	"classinstvars" : [ ],
 	"pools" : [ ],
