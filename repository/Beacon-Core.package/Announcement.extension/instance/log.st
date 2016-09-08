@@ -1,3 +1,4 @@
 *Beacon-Core-Core
 log
-	Beacon announce: self asBeaconSignal
+	self deprecated: 'Should use emit'.
+	self emit
