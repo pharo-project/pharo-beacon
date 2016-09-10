@@ -1,3 +1,3 @@
 registering
-handle: anAnnouncement
+nextPut: anAnnouncement
 	Transcript crShow: anAnnouncement

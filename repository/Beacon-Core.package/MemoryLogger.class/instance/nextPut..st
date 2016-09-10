@@ -1,5 +1,5 @@
 accessing
-handle: aSignal
+nextPut: aSignal
 	mutex critical: [
 		recordings add: aSignal ].
 	"the announcement is passed forward so that potential viewers
