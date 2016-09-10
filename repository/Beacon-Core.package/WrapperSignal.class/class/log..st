@@ -1,3 +1,4 @@
 instance creation
 log: aTargetObject
-	^ (self on: aTargetObject) log
+	self deprecated: 'Should use #emit:'.
+	^ self emit: aTargetObject 

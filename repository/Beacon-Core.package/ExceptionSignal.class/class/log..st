@@ -1,5 +1,4 @@
 instance creation
 log: anException
-	^ (self new 
-		exception: anException; 
-		stack: (anException signalerContext stack collect: [:each | each sourceNodeExecuted])) log
+	self deprecated: 'Should use #emit:'.
+	^ self emit: anException

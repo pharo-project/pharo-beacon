@@ -1,3 +1,4 @@
 instance creation
 log
-	^ self new log
+	self deprecated: 'Should use #emit'.
+	^ self emit

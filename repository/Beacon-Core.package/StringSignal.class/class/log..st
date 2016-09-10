@@ -1,5 +1,4 @@
 instance creation
 log: aString
-	^ self new 
-		message: aString;
-		log
+	self deprecated: 'Should use #emit:'.
+	^ self emit: aString

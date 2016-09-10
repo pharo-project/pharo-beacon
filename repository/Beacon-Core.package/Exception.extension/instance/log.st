@@ -1,3 +1,4 @@
 *Beacon-Core-Core
 log
-	^ ExceptionSignal log: self
+	self deprecated: 'Should use #emit'.
+	^ self emit
