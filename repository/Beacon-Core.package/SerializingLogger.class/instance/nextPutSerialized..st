@@ -1,3 +1,3 @@
 operations
-handleSerializedSignal: anObject
+nextPutSerialized: anObject
 	self subclassResponsibility 

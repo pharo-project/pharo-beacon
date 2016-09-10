@@ -1,4 +1,4 @@
 operations
-handleSerializedSignal: anObject
+nextPutSerialized: anObject
 	
 	self stream nextPutAll: anObject

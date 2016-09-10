@@ -1,4 +1,5 @@
 registering
 handle: aSignal
-	self subclassResponsibility 
+	self deprecated: 'Should use #nextPut:'.
+	self nextPut: aSignal
 	

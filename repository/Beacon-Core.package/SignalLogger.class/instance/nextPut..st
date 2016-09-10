@@ -1,3 +1,3 @@
 registering
 nextPut: aSignal
-	self handle: aSignal
+	self subclassResponsibility 
