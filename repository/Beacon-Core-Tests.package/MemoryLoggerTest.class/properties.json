@@ -8,6 +8,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "InMemoryLoggerTest",
+	"name" : "MemoryLoggerTest",
 	"type" : "normal"
 }
