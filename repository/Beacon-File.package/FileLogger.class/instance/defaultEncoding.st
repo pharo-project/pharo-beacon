@@ -1,3 +1,3 @@
-accessing
+defaults
 defaultEncoding
 	^ self class defaultEncoding
