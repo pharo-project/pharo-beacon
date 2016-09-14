@@ -9,7 +9,8 @@
 		"fileReference",
 		"encoding",
 		"binary",
-		"stream"
+		"stream",
+		"lineSeparator"
 	],
 	"name" : "FileLogger",
 	"type" : "normal"

@@ -1,4 +1,5 @@
 accessing
 nextPutSerialized: aString
+self halt.
 	super nextPutSerialized: aString.
-	self stream nextPut: Character lf
+	self stream nextPut: self lineSeparator 
