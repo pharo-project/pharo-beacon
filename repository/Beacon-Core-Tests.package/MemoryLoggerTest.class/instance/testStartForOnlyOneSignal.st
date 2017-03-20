@@ -4,5 +4,5 @@ testStartForOnlyOneSignal
 	logger := MemoryLogger new.
 	logger runFor: StringSignal during: [ 
 		StringSignal emit: 'This should be recorded.'.
-		MethodStackSignal log ].
+		MethodStackSignal emit ].
 	self assert: logger recordings size equals: 1
