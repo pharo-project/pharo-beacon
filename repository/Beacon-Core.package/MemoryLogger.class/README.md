@@ -1,18 +1,18 @@
-This beacon simply records the signals that it receives.
+This signal logger simply records the signals that it receives.
 
 !!Example1: Instance usage
 [[[
-	(RecordingBeacon new 
+	(MemoryLogger new 
 		runDuring: [ 
-			StringSignal log: 'This is a message' ]	)
+			StringSignal emit: 'This is a message' ]	)
 				inspect.
 ]]]
 
 !!Example 2: Global usage
 [[[
-	RecordingBeacon reset.
-	RecordingBeacon start.
-	StringSignal log: 'This is a message' .
-	RecordingBeacon instance recordings inspect.
-	RecordingBeacon stop.
+	MemoryLogger reset.
+	MemoryLogger start.
+	StringSignal emit: 'This is a message' .
+	MemoryLogger instance recordings inspect.
+	MemoryLogger stop.
 ]]]

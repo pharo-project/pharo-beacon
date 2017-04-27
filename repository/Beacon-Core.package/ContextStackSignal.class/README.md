@@ -1,8 +1,8 @@
 This signal  stores the Context objects and like this it is more suitable for reasoning about execution flows that also include information about receivers.
 
 Usage:
-	ContextStackSignal log
+	ContextStackSignal emit
 	
 Full Example:
-	TransmitBeacon new 
-		runDuring: [ ContextStackSignal log ].
+	TranscriptLogger new 
+		runDuring: [ ContextStackSignal emit ].

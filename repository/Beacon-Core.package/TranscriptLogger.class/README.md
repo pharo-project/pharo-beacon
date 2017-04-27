@@ -1,6 +1,6 @@
-This beacon forwards to the Transcript all signals that it receives.
+This logger forwards to the Transcript all signals that it receives.
 
 Example:
-	TranscriptBeacon new 
+	TranscriptLogger new 
 		runDuring: [ 
-			StringSignal log: 'This is a message' ].
+			StringSignal emit: 'This is a message' ].
