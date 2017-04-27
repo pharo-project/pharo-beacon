@@ -1,1 +1,1 @@
-A BoundedBeaconTest is xxxxxxxxx.
+A SignalLoggerTest is xxxxxxxxx.

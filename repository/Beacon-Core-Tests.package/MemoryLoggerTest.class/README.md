@@ -1,1 +1,1 @@
-A RecordingBeaconTest is xxxxxxxxx.
+A MemoryLoggerTest is xxxxxxxxx.

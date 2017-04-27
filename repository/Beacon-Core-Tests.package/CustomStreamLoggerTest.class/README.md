@@ -1,1 +1,1 @@
-A CustomStreamBeaconTest is xxxxxxxxx.
+A CustomStreamLoggerTest is xxxxxxxxx.
