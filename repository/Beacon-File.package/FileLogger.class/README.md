@@ -4,11 +4,12 @@ It can be used like
 
 FileLogger new
 	filename: '/tmp/test.log';
-	startFor: StringSignal.
-	
-and theStringSignal new
-	message: 'test message';
-	log.
+	runFor: StringSignal during: [ 
+		StringSignal emit: 'test message'
+		]
+
+
+
  
 
 
