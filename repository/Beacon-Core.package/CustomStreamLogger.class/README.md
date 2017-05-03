@@ -1,5 +1,7 @@
 Example:
 	String streamContents: [ :stream |
-		(CustomStringStreamLogger with: stream)
+		(CustomStreamLogger with: stream)
 			runDuring: [ 
-				StringSignal emit: 'This is a message' ] ]
+				StringSignal emit: 'This is a message'.
+				StringSignal emit: 'The red fox jumps over the lazy dog'.
+				 ] ]

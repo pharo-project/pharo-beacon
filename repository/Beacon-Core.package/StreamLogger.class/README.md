@@ -1,1 +1,1 @@
-This is an abstract logger that forwards to a string stream all signals that it receives.
+This is an abstract logger that forwards to a stream all signals that it receives.
