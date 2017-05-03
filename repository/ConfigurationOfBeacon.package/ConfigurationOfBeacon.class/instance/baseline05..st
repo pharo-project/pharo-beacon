@@ -13,7 +13,8 @@ baseline05: spec
 				spec requires: #('Beacon-Core' ). ];
 			package: #'Beacon-Syslog';
 			package: #'Beacon-File';
-			package: #'FuelBeacon'.
+			package: #'FuelBeacon';
+			package: #'Beacon-Zinc'.
 		spec 
 			group: 'Core' with: #('Beacon-Core' );
-			group: 'default' with: #('Beacon-Core' 'Beacon-Core-Tests' 'Beacon-Core-GT' 'Beacon-Syslog' 'Beacon-File' 'FuelBeacon'). ].
+			group: 'default' with: #('Beacon-Core' 'Beacon-Core-Tests' 'Beacon-Core-GT' 'Beacon-Syslog' 'Beacon-File' 'FuelBeacon' 'Beacon-Zinc'). ].
