@@ -19,6 +19,7 @@ One can get signals go to a given logger during the execution of a block with:
 		runDuring: [ 
 			'Hello' asBeaconSignal emit.
 			42 asBeaconSignal emit.
+			ContextStackSignal emit.
 			];
 		recordings.
 		
