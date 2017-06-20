@@ -7,4 +7,8 @@ writeEncodedString: aString on: aStream
 	encode utf-8 to be able to transport proper strings"
 	"self hasUtf8Converter ifTrue: [
 		converter class writeBOMOn: aStream ]."
-	converter nextPutByteString: aString toStream: aStream
+	"in order to support proper utf-8 encoding we need to workaround that 
+	TextConverter>>#nextPutByteString:toStream: does not work for WideStrings. So we put 
+	every single characters ourselves on the stream"
+	aString do: [ :char | 
+		converter nextPut: char toStream: aStream ]
