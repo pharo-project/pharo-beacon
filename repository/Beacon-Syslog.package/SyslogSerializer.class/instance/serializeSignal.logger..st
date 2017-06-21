@@ -2,10 +2,8 @@ format
 serializeSignal: aSignal logger: aLogger
 	"timestamp is rounded because the syslog format has only second precision"
 	| stream  |
-	stream := MultiByteBinaryOrTextStream on: ByteArray new.
-			
-	stream ascii.
-	"write priority"
+	stream := WriteStream on: ByteString new.
+
 	self writePriority: (aLogger facility + aSignal level severity) on: stream.
 	"write header consisting of timestamp and host"
 	self writeTimestamp: aSignal timestamp on: stream.
@@ -15,5 +13,4 @@ serializeSignal: aSignal logger: aLogger
 		nextPut:     Character space.
 	"syslog format ends here. Now we write the message part"
 	self writeMessageFrom: aSignal on: stream.
-	stream position: 0.
-	^ stream upToEnd
+	^ stream contents

@@ -10,5 +10,4 @@ writeEncodedString: aString on: aStream
 	"in order to support proper utf-8 encoding we need to workaround that 
 	TextConverter>>#nextPutByteString:toStream: does not work for WideStrings. So we put 
 	every single characters ourselves on the stream"
-	aString do: [ :char | 
-		converter nextPut: char toStream: aStream ]
+	aStream nextPutAll: (converter convertToSystemString: aString)

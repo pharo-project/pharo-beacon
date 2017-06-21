@@ -1,6 +1,6 @@
 writing
 writePriority: aNumber on: aStream
 	aStream 
-		nextPut: $<;
+		nextPut: $< ;
 		nextPutAll: aNumber asString;
-		nextPut: $>
+		nextPut: $> 

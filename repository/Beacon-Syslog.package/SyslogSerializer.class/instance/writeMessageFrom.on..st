@@ -9,5 +9,5 @@ writeMessageFrom: aLog on: aStream
 	aStream
 			nextPutAll:  aLog level shortName asUppercase ;
 			nextPutAll: ': '.
-	aStream binary.
+
 	self writeEncodedString: aLog message asString on: aStream
