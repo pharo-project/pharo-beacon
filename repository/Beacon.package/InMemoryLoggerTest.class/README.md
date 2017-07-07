@@ -1,1 +1,0 @@
-A RecordingBeaconTest is xxxxxxxxx.

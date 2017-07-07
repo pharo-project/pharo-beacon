@@ -1,1 +1,0 @@
-A WrapperSignalTest is xxxxxxxxx.

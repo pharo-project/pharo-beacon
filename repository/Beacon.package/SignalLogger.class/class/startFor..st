@@ -1,3 +1,0 @@
-registering
-startFor: anAnnouncementOrASetOfAnnouncements
-	self instance startFor: anAnnouncementOrASetOfAnnouncements 

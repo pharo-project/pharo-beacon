@@ -1,1 +1,0 @@
-A SignalTest is xxxxxxxxx.

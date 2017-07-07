@@ -1,3 +1,0 @@
-initialize
-prepareForDelivery
-	self stack

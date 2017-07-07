@@ -1,1 +1,0 @@
-A CustomStreamBeaconTest is xxxxxxxxx.
