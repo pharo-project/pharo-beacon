@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "PhilippeBack 4/27/2017 00:08",
+	"super" : "SignalLogger",
+	"category" : "Beacon-Core-Loggers",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TranscriptLogger",
+	"type" : "normal"
+}

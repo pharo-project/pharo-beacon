@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "PhilippeBack 4/27/2017 00:06",
+	"super" : "SignalLogger",
+	"category" : "Beacon-Core-Loggers",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"recordings",
+		"announcer",
+		"mutex"
+	],
+	"name" : "MemoryLogger",
+	"type" : "normal"
+}

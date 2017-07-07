@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "PhilippeBack 5/3/2017 14:48",
+	"super" : "StreamLogger",
+	"category" : "Beacon-File",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"fileReference",
+		"encoding",
+		"binary",
+		"stream",
+		"lineSeparator"
+	],
+	"name" : "FileLogger",
+	"type" : "normal"
+}

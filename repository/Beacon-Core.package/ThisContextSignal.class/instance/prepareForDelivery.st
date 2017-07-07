@@ -1,0 +1,3 @@
+initialize
+prepareForDelivery
+	self stack

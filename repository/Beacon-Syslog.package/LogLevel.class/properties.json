@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "StephaneDucasse 2/22/2014 20:08",
+	"super" : "Object",
+	"category" : "Beacon-Syslog",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"LogLevels"
+	],
+	"instvars" : [
+		"name",
+		"shortName",
+		"severity"
+	],
+	"name" : "LogLevel",
+	"type" : "normal"
+}

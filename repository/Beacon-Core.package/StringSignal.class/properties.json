@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "PhilippeBack 4/27/2017 00:11",
+	"super" : "BeaconSignal",
+	"category" : "Beacon-Core-Signals",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"message"
+	],
+	"name" : "StringSignal",
+	"type" : "normal"
+}

@@ -1,0 +1,1 @@
+A SignalLoggerTest is xxxxxxxxx.

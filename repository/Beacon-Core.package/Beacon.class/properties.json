@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "PhilippeBack 4/26/2017 23:59",
+	"super" : "Object",
+	"category" : "Beacon-Core-Beacon",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"instance"
+	],
+	"instvars" : [
+		"announcer"
+	],
+	"name" : "Beacon",
+	"type" : "normal"
+}

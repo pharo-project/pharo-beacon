@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "StephaneDucasse 2/22/2014 21:44",
+	"super" : "SignalSerializer",
+	"category" : "Beacon-Syslog",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"converter"
+	],
+	"name" : "SyslogSerializer",
+	"type" : "normal"
+}
