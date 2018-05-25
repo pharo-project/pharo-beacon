@@ -15,4 +15,6 @@ baseline: spec
 			package: #'Beacon-Zinc'.
 		spec 
 			group: 'Core' with: #('Beacon-Core' );
-			group: 'default' with: #('Beacon-Core' 'Beacon-Core-Tests' 'Beacon-Core-GT' 'Beacon-Syslog' 'Beacon-File' 'FuelBeacon' 'Beacon-Zinc'). ].
+			group: 'Tests' with: #('Beacon-Core-Tests');
+			group: 'GTTools' with: #('Beacon-Core-GT' );
+			group: 'default' with: #('Core' 'Tests' 'GTTools' 'Beacon-Syslog' 'Beacon-File' 'FuelBeacon' 'Beacon-Zinc') ].
