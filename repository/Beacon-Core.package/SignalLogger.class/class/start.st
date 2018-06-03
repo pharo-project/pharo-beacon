@@ -1,3 +1,3 @@
 registering
 start
-	self instance start
+	^ self instance start
