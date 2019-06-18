@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "AlistairGrant 6/12/2019 08:47",
+	"super" : "MemoryLogger",
+	"category" : "Beacon-Core-Loggers",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"entryCount",
+		"index",
+		"fullBuffer",
+		"loopCount"
+	],
+	"name" : "CircularMemoryLogger",
+	"type" : "normal"
+}
