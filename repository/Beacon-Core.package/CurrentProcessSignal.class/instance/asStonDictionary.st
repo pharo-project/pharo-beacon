@@ -7,5 +7,5 @@ asStonDictionary
 		at: #preemptedStack put: preemptedStack;
 		at: #nextReadyName put: nextReadyName;
 		at: #nextReadyPriority put: nextReadyPriority;
-		at: #nextReadyStack put: preemptedStack;
+		at: #nextReadyStack put: nextReadyStack;
 		yourself
