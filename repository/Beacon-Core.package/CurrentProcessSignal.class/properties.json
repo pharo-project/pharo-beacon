@@ -1,0 +1,21 @@
+{
+	"commentStamp" : "AlistairGrant 6/20/2019 13:33",
+	"super" : "BeaconSignal",
+	"category" : "Beacon-Core-Signals",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"SamplePeriod",
+		"SampleProcess"
+	],
+	"instvars" : [
+		"preemptedStack",
+		"preemptedName",
+		"preemptedPriority",
+		"nextReadyStack",
+		"nextReadyName",
+		"nextReadyPriority"
+	],
+	"name" : "CurrentProcessSignal",
+	"type" : "normal"
+}
