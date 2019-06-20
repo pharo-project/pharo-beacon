@@ -1,4 +1,4 @@
-as yet unclassified
+sampling
 stopSampling
 
 	SampleProcess ifNil: [ ^self ].
