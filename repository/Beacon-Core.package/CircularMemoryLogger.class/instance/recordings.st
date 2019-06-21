@@ -4,6 +4,5 @@ recordings
 	access to the users to a shared resource that should only be 
 	modified via the mutex"
 	^ (fullBuffer
-			ifTrue: [ recordings ]
-			ifFalse: [ recordings select: #notNil ]) 
-				sorted: [ :a :b | a timestamp < b timestamp ]
+			ifTrue: [ recordings sorted: [ :a :b | a timestamp < b timestamp ] ]
+			ifFalse: [ recordings first: index ])
