@@ -13,4 +13,4 @@ saveBlocGlobalLogger
 	semaphore signal ]
 		forkAt: Processor userSchedulingPriority + 5 named: 'Bloc Global Logger'.
 	semaphore wait.
-	self instance saveStonFile: 'bloclog.stgz' asFileReference nextVersion
+	self instance saveStonFile: 'bloclog.stgz' asFileReference

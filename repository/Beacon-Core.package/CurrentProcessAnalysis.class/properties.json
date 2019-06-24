@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Beacon-Core-Analysis",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"signals"
+	],
+	"name" : "CurrentProcessAnalysis",
+	"type" : "normal"
+}

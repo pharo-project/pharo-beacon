@@ -4,7 +4,11 @@
 	"category" : "Beacon-Core-Loggers",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [ ],
+	"classvars" : [
+		"WriteFilename",
+		"WritePeriod",
+		"WriteProcess"
+	],
 	"instvars" : [
 		"recordings",
 		"announcer",
