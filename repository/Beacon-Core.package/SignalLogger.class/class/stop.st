@@ -1,3 +1,3 @@
 registering
 stop
-	self instance stop
+	^ self instance stop
