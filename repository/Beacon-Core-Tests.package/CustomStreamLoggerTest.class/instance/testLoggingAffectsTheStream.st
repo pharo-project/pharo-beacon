@@ -5,4 +5,4 @@ testLoggingAffectsTheStream
 		(CustomStreamLogger with: stream)
 			runDuring: [ 
 				StringSignal emit: 'This is a message' ] ].
-	self assert: loggedResult lines size = 1
+	self assert: loggedResult lines size equals: 1

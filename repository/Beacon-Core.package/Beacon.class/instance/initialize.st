@@ -1,3 +1,4 @@
+initialization
 initialize
-initialize
+	super initialize.
 	announcer := Announcer new

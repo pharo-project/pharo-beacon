@@ -5,6 +5,6 @@ testRecordTwoSignalsInTheRightOrder
 					runDuring: [ 
 						StringSignal emit: 'test1'.
 						StringSignal emit: 'test2' ].
-	self assert: logger recordings size = 2.
-	self assert: logger recordings first message = 'test1'.
-	self assert: logger recordings last message = 'test2'
+	self assert: logger recordings size equals: 2.
+	self assert: logger recordings first message equals: 'test1'.
+	self assert: logger recordings last message equals: 'test2'

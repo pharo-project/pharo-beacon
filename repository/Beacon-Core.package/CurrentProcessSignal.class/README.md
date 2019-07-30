@@ -6,7 +6,7 @@ A high priority loop to emit a signal once a second can be started and stopped u
 	
 	CurrentProcessSignal stopSampling.
 
-These are normally captured using the ${class:name=CircularMemoryLogger}.
+These are normally captured using the ${class:name=CircularMemoryLogger}$.
 
 Looking at the one line description of a series of signals will normally fairly quickly show if one process is CPU bound as it will regularly appear as the preempted process.
 

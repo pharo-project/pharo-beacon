@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "PhilippeBack 4/27/2017 00:11",
+	"commentStamp" : "StephaneDucasse 7/30/2019 10:01",
 	"super" : "BeaconSignal",
 	"category" : "Beacon-Core-Signals",
 	"classinstvars" : [ ],
