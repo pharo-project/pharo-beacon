@@ -6,7 +6,7 @@ baseline: spec
 		spec 
 			package: #'Beacon-Core';
 			package: #'Beacon-Core-GT' with: [
-				spec requires: #('Beacon-Core' ). ];
+				spec requires: #('Beacon-Core' #'Beacon-ExtraSignals'). ];
 			package: #'Beacon-Core-Tests' with: [
 				spec requires: #('Beacon-Core' ). ];
 			package: #'Beacon-SerializingLoggers' with: [ spec requires: #('Beacon-Core') ];
