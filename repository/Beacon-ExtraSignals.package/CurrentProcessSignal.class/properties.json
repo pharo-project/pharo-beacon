@@ -1,0 +1,21 @@
+{
+	"commentStamp" : "StephaneDucasse 7/30/2019 09:59",
+	"super" : "BeaconSignal",
+	"category" : "Beacon-ExtraSignals",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"SamplePeriod",
+		"SampleProcess"
+	],
+	"instvars" : [
+		"preemptedStack",
+		"preemptedName",
+		"preemptedPriority",
+		"nextReadyStack",
+		"nextReadyName",
+		"nextReadyPriority"
+	],
+	"name" : "CurrentProcessSignal",
+	"type" : "normal"
+}

@@ -1,3 +1,3 @@
 announcing
-unsubscribe: aBoundedBeacon
-	self announcer unsubscribe: aBoundedBeacon
+unsubscribe: aSignalLogger
+	self announcer unsubscribe: aSignalLogger

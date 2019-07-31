@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "PhilippeBack 5/3/2017 14:13",
+	"super" : "Object",
+	"category" : "Beacon-SerializingLoggers",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SignalSerializer",
+	"type" : "normal"
+}

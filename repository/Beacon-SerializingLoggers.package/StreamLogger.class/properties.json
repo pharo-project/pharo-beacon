@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "PhilippeBack 5/3/2017 14:15",
+	"super" : "SerializingLogger",
+	"category" : "Beacon-SerializingLoggers",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "StreamLogger",
+	"type" : "normal"
+}

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "PhilippeBack 5/3/2017 14:14",
+	"super" : "SignalLogger",
+	"category" : "Beacon-SerializingLoggers",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"serializer"
+	],
+	"name" : "SerializingLogger",
+	"type" : "normal"
+}

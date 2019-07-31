@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "PhilippeBack 4/27/2017 00:13",
+	"super" : "TestCase",
+	"category" : "Beacon-Extra-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CustomStreamLoggerTest",
+	"type" : "normal"
+}
