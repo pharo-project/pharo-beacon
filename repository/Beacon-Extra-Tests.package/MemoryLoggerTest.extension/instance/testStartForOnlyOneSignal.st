@@ -1,4 +1,4 @@
-testing
+*Beacon-Extra-Tests
 testStartForOnlyOneSignal
 	| logger |
 	logger := MemoryLogger new.
