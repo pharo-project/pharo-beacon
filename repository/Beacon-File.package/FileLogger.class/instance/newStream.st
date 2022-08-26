@@ -3,5 +3,5 @@ newStream
 	| newStream |
 	newStream := fileReference writeStream.
 	binary ifFalse: [ 
-		newStream converter: self converter ].
+		newStream encoder: self encoder ].
 	^ newStream 
