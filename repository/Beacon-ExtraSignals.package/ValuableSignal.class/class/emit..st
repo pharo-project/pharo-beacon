@@ -1,6 +1,4 @@
 instance creation
 emit: aValuable
 
-	^ self new 
-		valuable: aValuable;
-		emit
+	^ (self on: aValuable) emit
