@@ -1,0 +1,4 @@
+accessing
+messageForTest
+
+	^ 'a message'

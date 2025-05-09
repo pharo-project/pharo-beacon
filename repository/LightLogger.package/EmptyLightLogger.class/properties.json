@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "LightLogger",
+	"category" : "LightLogger",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "EmptyLightLogger",
+	"type" : "normal"
+}

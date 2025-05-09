@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "BeaconSignal",
+	"category" : "LightLogger",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"senderClass",
+		"senderSelector",
+		"sourcePosition"
+	],
+	"name" : "TraceSignal",
+	"type" : "normal"
+}
