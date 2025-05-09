@@ -1,0 +1,4 @@
+testing
+isAbstract
+
+	^ self == SignalLogger

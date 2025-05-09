@@ -1,0 +1,4 @@
+testing
+hasEntries
+
+	^ entries isNotEmpty 

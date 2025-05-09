@@ -1,3 +1,3 @@
 printing
 printOneLineContentsOn: stream
-	"hook to be overriden by subclasses"
+	"Hook to be overriden by subclasses"

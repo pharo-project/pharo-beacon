@@ -1,3 +1,4 @@
-registering
+logging
 nextPut: anAnnouncement
-	Transcript crShow: anAnnouncement
+
+	anAnnouncement crTrace

@@ -1,3 +1,4 @@
-registering
+registration
 start
-	self startFor: BeaconSignal 
+
+	self startFor: BeaconSignal

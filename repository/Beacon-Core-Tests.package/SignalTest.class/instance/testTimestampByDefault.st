@@ -5,5 +5,4 @@ testTimestampByDefault
 	signal := BeaconSignal new.
 	after := DateAndTime now.
 	self assert: before <= signal timestamp.
-	self assert: after >= signal timestamp.
-	
+	self assert: after >= signal timestamp

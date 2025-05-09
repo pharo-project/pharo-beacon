@@ -1,6 +1,6 @@
+initialization
 initialize
-initialize 
 
-	entryCount := 5000.
-	index := 0.
-	super initialize.
+	maximumEntryCount := 5000.
+	lastEntryIndex := 0.
+	super initialize

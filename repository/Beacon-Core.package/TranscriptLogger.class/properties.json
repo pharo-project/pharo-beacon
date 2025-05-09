@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "PhilippeBack 4/27/2017 00:08",
+	"commentStamp" : "",
 	"super" : "SignalLogger",
 	"category" : "Beacon-Core-Loggers",
 	"classinstvars" : [ ],

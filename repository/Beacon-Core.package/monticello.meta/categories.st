@@ -1,5 +1,1 @@
-SystemOrganization addCategory: #'Beacon-Core'!
-SystemOrganization addCategory: #'Beacon-Core-Analysis'!
-SystemOrganization addCategory: #'Beacon-Core-Beacon'!
-SystemOrganization addCategory: #'Beacon-Core-Loggers'!
-SystemOrganization addCategory: #'Beacon-Core-Signals'!
+self packageOrganizer ensurePackage: #'Beacon-Core' withTags: #(#Beacon #Loggers #Manifest #Signals)!

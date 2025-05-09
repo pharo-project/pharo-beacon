@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #BaselineOfBeacon!
+self packageOrganizer ensurePackage: #BaselineOfBeacon withTags: #()!

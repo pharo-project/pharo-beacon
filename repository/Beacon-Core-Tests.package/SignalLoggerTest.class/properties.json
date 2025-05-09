@@ -1,7 +1,7 @@
 {
-	"commentStamp" : "PhilippeBack 4/27/2017 00:14",
+	"commentStamp" : "",
 	"super" : "TestCase",
-	"category" : "Beacon-Core-Tests",
+	"category" : "Beacon-Core-Tests-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

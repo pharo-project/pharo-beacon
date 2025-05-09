@@ -1,3 +1,4 @@
 accessing
 loggers
-	^ self instance loggers 
+
+	^ self instance loggers

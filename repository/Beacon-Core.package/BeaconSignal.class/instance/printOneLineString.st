@@ -1,3 +1,4 @@
 printing
 printOneLineString
-	^ String streamContents: [:stream | self printOneLineOn: stream]
+
+	^ String streamContents: [ :stream | self printOneLineOn: stream ]

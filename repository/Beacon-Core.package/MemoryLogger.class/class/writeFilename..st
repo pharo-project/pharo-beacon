@@ -1,4 +1,4 @@
 accessing
 writeFilename: aFilename
 
-	WriteFilename := aFilename 
+	WriteFilename := aFilename

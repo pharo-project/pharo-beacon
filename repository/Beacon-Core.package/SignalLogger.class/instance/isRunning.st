@@ -1,5 +1,6 @@
 testing
 isRunning
-	Beacon instance announcer subscriptions 
+
+	beacon announcer subscriptions
 		subscriptionsOf: self do: [ :x | ^ true ].
 	^ false

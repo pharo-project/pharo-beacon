@@ -1,7 +1,8 @@
-accessing
+logging
 nextPut: aSignal
+
 	mutex critical: [
-		recordings add: aSignal ].
+		entries add: aSignal ].
 	"the announcement is passed forward so that potential viewers
 	can refresh when something changes. we do not create another announcement
 	because it is not needed given that the only thing that can happen is
