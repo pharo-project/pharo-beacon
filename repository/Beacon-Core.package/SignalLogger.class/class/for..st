@@ -1,4 +1,6 @@
 instance creation
 for: aBeacon
-	^ self new 
-		beacon: aBeacon
+
+	^ self new
+		beacon: aBeacon;
+		yourself

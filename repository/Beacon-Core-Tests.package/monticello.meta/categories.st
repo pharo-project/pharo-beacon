@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Beacon-Core-Tests'!
+self packageOrganizer ensurePackage: #'Beacon-Core-Tests' withTags: #()!

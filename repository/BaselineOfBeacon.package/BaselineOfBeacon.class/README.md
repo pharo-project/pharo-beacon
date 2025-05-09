@@ -1,0 +1,1 @@
+Baseline for Beacon - a slim logging engine based entirely on Announcements

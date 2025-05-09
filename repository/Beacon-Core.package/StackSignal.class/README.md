@@ -1,0 +1,1 @@
+I'm a signal that captures the stack of execution.

@@ -1,6 +1,6 @@
-initialize
+initialization
 reset
-	"it simply removes all recordings without
+	"it simply removes all entries without
 	affecting the running status of the logger"
 	mutex critical: [
-		recordings := OrderedCollection new ]
+		entries := OrderedCollection new ]

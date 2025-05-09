@@ -1,4 +1,5 @@
-registering
+logging
 nextPut: aSignal
 	"Gets a BeaconSignal into the logger"
-	self subclassResponsibility 
+
+	self subclassResponsibility

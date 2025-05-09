@@ -1,7 +1,7 @@
 {
-	"commentStamp" : "TudorGirba 6/9/2014 01:10",
+	"commentStamp" : "",
 	"super" : "BeaconSignal",
-	"category" : "Beacon-Core-Tests",
+	"category" : "Beacon-Core-Tests-Signals",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

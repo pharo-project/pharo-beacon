@@ -1,3 +1,8 @@
-accessing
+class initialization
 resetInstance
-	instance := nil
+
+	<script>
+
+	instance ifNotNil: [
+		Beacon instance unsubscribe: instance.
+		instance := nil ]

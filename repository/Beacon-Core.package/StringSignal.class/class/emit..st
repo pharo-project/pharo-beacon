@@ -1,5 +1,5 @@
 instance creation
 emit: aString
-	^ self new 
+	^ self new
 		message: aString;
 		emit

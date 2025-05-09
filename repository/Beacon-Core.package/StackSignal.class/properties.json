@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "BeaconSignal",
+	"category" : "Beacon-Core-Signals",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"stack"
+	],
+	"name" : "StackSignal",
+	"type" : "normal"
+}

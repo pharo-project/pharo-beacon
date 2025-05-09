@@ -1,5 +1,6 @@
-accessing
+private - initialization
 resetInstance
-	instance ifNotNil: [ 
-		instance announcer subscriptions reset ].
-	instance := nil
+
+	Instance ifNotNil: [
+		Instance announcer subscriptions reset ].
+	Instance := nil

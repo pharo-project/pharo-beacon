@@ -1,6 +1,6 @@
-initialize
+initialization
 entryCount: anInteger
 
 	mutex critical: [
-		entryCount := anInteger.
+		maximumEntryCount := anInteger.
 		self basicReset ]
