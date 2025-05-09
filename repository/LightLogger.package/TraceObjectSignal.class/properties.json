@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "TraceSignal",
+	"category" : "LightLogger",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"object",
+		"traceName",
+		"traceMessage"
+	],
+	"name" : "TraceObjectSignal",
+	"type" : "normal"
+}
