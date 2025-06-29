@@ -1,15 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "LightFilter",
 	"category" : "LightLogger",
-	"classinstvars" : [
-		"uniqueInstance"
-	],
+	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"filters"
+		"package"
 	],
-	"name" : "LightLogger",
+	"name" : "LightFilterPackage",
 	"type" : "normal"
 }

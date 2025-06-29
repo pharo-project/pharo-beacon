@@ -1,5 +1,9 @@
 tracing
 trace
 	"trace method (and line)"
+	| sender |
 
-	(TraceSignal fromContext: thisContext sender) emit
+	sender := thisContext sender.
+	(self isTracing: sender) ifFalse: [ ^ self ].
+
+	(TraceSignal fromContext: sender) emit

@@ -1,0 +1,4 @@
+testing
+isTracing: aContext
+
+	^ true

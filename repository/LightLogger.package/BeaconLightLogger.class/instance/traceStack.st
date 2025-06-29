@@ -1,5 +1,9 @@
 tracing
 traceStack
 	"trace stack"
+	| sender |
 
-	(TraceStackSignal fromContext: thisContext sender) emit
+	sender := thisContext sender.
+	(self isTracing: sender) ifFalse: [ ^ self ].
+
+	(TraceStackSignal fromContext: sender) emit
