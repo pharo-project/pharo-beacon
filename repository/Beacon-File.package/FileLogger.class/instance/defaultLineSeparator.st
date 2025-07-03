@@ -1,3 +1,0 @@
-defaults
-defaultLineSeparator
-	^ Character lf

@@ -1,1 +1,0 @@
-A CustomStreamLoggerTest is xxxxxxxxx.

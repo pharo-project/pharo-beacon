@@ -1,4 +1,0 @@
-visiting
-visitLiteralNode: aNode
-
-	^ TraceLiteralSignal

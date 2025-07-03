@@ -1,3 +1,0 @@
-accessing
-preemptedStack
-	^ preemptedStack

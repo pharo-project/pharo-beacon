@@ -1,3 +1,0 @@
-initialization
-reset
-	LogLevels := nil

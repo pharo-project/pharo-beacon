@@ -1,4 +1,0 @@
-testing
-hasEntries
-
-	^ entries isNotEmpty 

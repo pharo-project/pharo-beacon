@@ -1,1 +1,0 @@
-A signal to print a valuable. Useful when you have complex construcitions to log and you do not want to slowdown the system when beacon is disabled.

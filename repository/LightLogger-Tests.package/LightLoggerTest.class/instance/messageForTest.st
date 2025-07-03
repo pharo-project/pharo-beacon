@@ -1,4 +1,0 @@
-accessing
-messageForTest
-
-	^ 'a message'

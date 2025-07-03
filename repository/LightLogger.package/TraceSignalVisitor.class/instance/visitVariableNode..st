@@ -1,4 +1,0 @@
-visiting
-visitVariableNode: aNode
-
-	^ TraceVariableSignal

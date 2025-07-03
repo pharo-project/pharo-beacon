@@ -1,3 +1,0 @@
-accessing
-nextReadyStack
-	^ nextReadyStack

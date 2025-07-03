@@ -1,1 +1,0 @@
-A CurrentStackSignalTest is xxxxxxxxx.
