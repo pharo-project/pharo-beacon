@@ -1,3 +1,4 @@
 {
-	'srcDirectory' : 'repository'
+	'srcDirectory' : 'src',
+	'tags' : [ #system ]
 }
