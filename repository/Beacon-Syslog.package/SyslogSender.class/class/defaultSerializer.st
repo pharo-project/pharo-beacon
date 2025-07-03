@@ -1,3 +1,0 @@
-defaults
-defaultSerializer
-	^ SyslogSerializer new

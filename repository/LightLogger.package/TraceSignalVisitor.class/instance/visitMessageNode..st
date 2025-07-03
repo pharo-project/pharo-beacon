@@ -1,4 +1,0 @@
-visiting
-visitMessageNode: aMessageNode
-
-	^ TraceMessageSignal

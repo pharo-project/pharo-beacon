@@ -1,3 +1,0 @@
-initialize
-currentStack
-	self subclassResponsibility 

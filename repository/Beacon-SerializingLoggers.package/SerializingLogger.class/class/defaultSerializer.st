@@ -1,4 +1,0 @@
-defaults
-defaultSerializer
-
-	^ SignalSerializer new
