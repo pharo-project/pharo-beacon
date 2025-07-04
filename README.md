@@ -1,10 +1,9 @@
 # Beacon
 
-Beacon is a slim logging engine based entirely on Announcements.
+Beacon is a slim logging engine based entirely on Announcements. Its core part is already present in [Pharo](https://github.com/pharo-project/pharo).  
 
-More info in an introductory blog post:
-[http://www.humane-assessment.com/blog/beacon](http://www.humane-assessment.com/blog/beacon)
-
+More info in the pharo project documentation:
+[pharo/beacon](https://github.com/pharo-project/pharo/blob/Pharo14/doc/Beacon/Beacon.md)  
 
 ## Installation
 
