@@ -1,6 +1,10 @@
 Class {
 	#name : 'BeaconLightLogger',
 	#superclass : 'LightLogger',
+	#instVars : [
+		'filters',
+		'logLevel'
+	],
 	#category : 'LightLogger',
 	#package : 'LightLogger'
 }
@@ -19,9 +23,10 @@ BeaconLightLogger >> disable [
 	self stopFileLoggers
 ]
 
-{ #category : 'tracing' }
+{ #category : 'tracing - donotuse' }
 BeaconLightLogger >> error: error [
 	| sender |
+	logLevel >= 3 ifFalse: [ ^ self ].
 
 	sender := thisContext sender.
 	(self isTracing: sender) ifFalse: [ ^ self ].
@@ -59,15 +64,21 @@ BeaconLightLogger >> filterByPackages: aCollection [
 { #category : 'tracing' }
 BeaconLightLogger >> info: aString [
 	| sender |
-
+	logLevel >= 1 ifFalse: [ ^ self ].
 	sender := thisContext sender.
 	(self isTracing: sender) ifFalse: [ ^ self ].
 
-	(TraceObjectSignal
+	(InfoSignal
 		fromContext: sender
-		object: aString)
-		traceMessage: 'INFO';
+		message: aString)
 		emit
+]
+
+{ #category : 'initialization' }
+BeaconLightLogger >> initialize [
+
+	super initialize.
+	self logLevelTrace
 ]
 
 { #category : 'testing' }
@@ -83,8 +94,27 @@ BeaconLightLogger >> isTracing: aReceiver [
 	^ filters anySatisfy: [ :each | each isTracing: aReceiver ]
 ]
 
-{ #category : 'tracing' }
+{ #category : 'accessing - loglevel' }
+BeaconLightLogger >> logLevelInfo [
+
+	logLevel := 1
+]
+
+{ #category : 'accessing - loglevel' }
+BeaconLightLogger >> logLevelTrace [
+
+	logLevel := 3
+]
+
+{ #category : 'accessing - loglevel' }
+BeaconLightLogger >> logLevelWarning [
+
+	logLevel := 2
+]
+
+{ #category : 'tracing - donotuse' }
 BeaconLightLogger >> object: aVariable [
+	logLevel >= 3 ifFalse: [ ^ self ].
 
 	(TraceObjectSignal 
 		fromContext: thisContext sender
@@ -116,6 +146,7 @@ BeaconLightLogger >> stopFileLoggers [
 BeaconLightLogger >> trace [
 	"trace method (and line)"
 	| sender |
+	logLevel >= 3 ifFalse: [ ^ self ].
 
 	sender := thisContext sender.
 	(self isTracing: sender) ifFalse: [ ^ self ].
@@ -126,6 +157,7 @@ BeaconLightLogger >> trace [
 { #category : 'tracing' }
 BeaconLightLogger >> trace: anObject [
 	| sender |
+	logLevel >= 3 ifFalse: [ ^ self ].
 
 	sender := thisContext sender.
 	(self isTracing: sender) ifFalse: [ ^ self ].
@@ -138,6 +170,7 @@ BeaconLightLogger >> trace: anObject [
 { #category : 'tracing' }
 BeaconLightLogger >> trace: anObject message: messageString [
 	| sender |
+	logLevel >= 3 ifFalse: [ ^ self ].
 
 	sender := thisContext sender.
 	(self isTracing: sender) ifFalse: [ ^ self ].
@@ -153,6 +186,7 @@ BeaconLightLogger >> trace: anObject message: messageString [
 BeaconLightLogger >> traceStack [
 	"trace stack"
 	| sender |
+	logLevel >= 3 ifFalse: [ ^ self ].
 
 	sender := thisContext sender.
 	(self isTracing: sender) ifFalse: [ ^ self ].
@@ -160,9 +194,24 @@ BeaconLightLogger >> traceStack [
 	(TraceStackSignal fromContext: sender) emit
 ]
 
-{ #category : 'tracing' }
+{ #category : 'tracing - donotuse' }
 BeaconLightLogger >> var: aVariable [
 	| sender |
+	logLevel >= 3 ifFalse: [ ^ self ].
+
+	sender := thisContext sender.
+	(self isTracing: sender) ifFalse: [ ^ self ].
+
+	(TraceObjectSignal 
+		fromContext: sender
+		object: aVariable) 
+		emit
+]
+
+{ #category : 'tracing - donotuse' }
+BeaconLightLogger >> variable: aVariable [
+	| sender |
+	logLevel >= 3 ifFalse: [ ^ self ].
 
 	sender := thisContext sender.
 	(self isTracing: sender) ifFalse: [ ^ self ].
@@ -174,14 +223,15 @@ BeaconLightLogger >> var: aVariable [
 ]
 
 { #category : 'tracing' }
-BeaconLightLogger >> variable: aVariable [
+BeaconLightLogger >> warning: aString [
 	| sender |
+	logLevel >= 2 ifFalse: [ ^ self ].
 
 	sender := thisContext sender.
 	(self isTracing: sender) ifFalse: [ ^ self ].
 
-	(TraceObjectSignal 
+	(WarningSignal
 		fromContext: sender
-		object: aVariable) 
+		message: aString)
 		emit
 ]

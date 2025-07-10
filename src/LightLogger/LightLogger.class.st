@@ -1,9 +1,6 @@
 Class {
 	#name : 'LightLogger',
 	#superclass : 'Object',
-	#instVars : [
-		'filters'
-	],
 	#classInstVars : [
 		'uniqueInstance'
 	],
@@ -75,7 +72,6 @@ LightLogger >> error: aString [
 
 { #category : 'tracing' }
 LightLogger >> info: aString [
-
 ]
 
 { #category : 'testing' }
@@ -117,4 +113,9 @@ LightLogger >> var: aVariable [
 { #category : 'tracing' }
 LightLogger >> variable: aVariable [
 	"trace variable value"
+]
+
+{ #category : 'tracing' }
+LightLogger >> warning: aString [
+
 ]
