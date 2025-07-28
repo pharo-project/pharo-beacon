@@ -49,6 +49,19 @@ TraceSignal >> printOneLineContentsOn: stream [
 			print: self sourcePosition first
 ]
 
+{ #category : 'printing' }
+TraceSignal >> printOneLineOn: stream [
+
+	self timestamp printYMDOn: stream.
+	stream space.
+	self timestamp rounded printHMSOn: stream.
+	stream space.
+	stream nextPutAll: (self signalName padRightTo: 10).
+	stream space.
+
+	self printOneLineContentsOn: stream
+]
+
 { #category : 'accessing' }
 TraceSignal >> senderClass [
 
@@ -59,6 +72,12 @@ TraceSignal >> senderClass [
 TraceSignal >> senderSelector [
 
 	^ senderSelector
+]
+
+{ #category : 'accessing' }
+TraceSignal >> signalName [
+
+	^ 'trace'
 ]
 
 { #category : 'accessing' }

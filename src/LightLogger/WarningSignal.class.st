@@ -4,3 +4,9 @@ Class {
 	#category : 'LightLogger',
 	#package : 'LightLogger'
 }
+
+{ #category : 'accessing' }
+WarningSignal >> signalName [
+
+	^ 'warning'
+]
