@@ -52,6 +52,11 @@ LightLogger class >> uniqueInstance [
 	^ uniqueInstance ifNil: [ uniqueInstance := self basicNew initialize ]
 ]
 
+{ #category : 'tracing' }
+LightLogger >> debug: aString [
+
+]
+
 { #category : 'accessing' }
 LightLogger >> disable [
 
@@ -66,7 +71,7 @@ LightLogger >> enable [
 ]
 
 { #category : 'tracing' }
-LightLogger >> error: aString [
+LightLogger >> error: anErrorOrString [
 
 ]
 
