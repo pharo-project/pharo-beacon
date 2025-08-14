@@ -1,12 +1,12 @@
 Class {
-	#name : 'DebugSignal',
+	#name : 'ErrorSignal',
 	#superclass : 'TraceStringSignal',
 	#category : 'LightLogger',
 	#package : 'LightLogger'
 }
 
 { #category : 'accessing' }
-DebugSignal >> signalName [
+ErrorSignal >> signalName [
 
-	^ 'DEBUG'
+	^ 'ERROR'
 ]

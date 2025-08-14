@@ -38,17 +38,17 @@ BeaconLightLogger >> disable [
 ]
 
 { #category : 'tracing - donotuse' }
-BeaconLightLogger >> error: error [
+BeaconLightLogger >> error: aStringOrError [
 	| sender |
+
 	logLevel >= 3 ifFalse: [ ^ self ].
 
 	sender := thisContext sender.
 	(self isTracing: sender) ifFalse: [ ^ self ].
 
-	(TraceObjectSignal
+	(InfoSignal
 		fromContext: sender
-		object: error)
-		traceMessage: 'ERROR';
+		message: aStringOrError)
 		emit
 ]
 

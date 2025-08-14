@@ -8,5 +8,5 @@ Class {
 { #category : 'accessing' }
 InfoSignal >> signalName [
 
-	^ 'info'
+	^ 'INFO'
 ]

@@ -8,5 +8,5 @@ Class {
 { #category : 'accessing' }
 WarningSignal >> signalName [
 
-	^ 'warning'
+	^ 'WARNING'
 ]
