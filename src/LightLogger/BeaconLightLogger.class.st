@@ -65,6 +65,12 @@ BeaconLightLogger >> filterByClasses: aCollection [
 ]
 
 { #category : 'accessing - filtering' }
+BeaconLightLogger >> filterByMethod: aMethod [
+
+	self addFilter: (LightFilterMethod newMethod: aMethod)
+]
+
+{ #category : 'accessing - filtering' }
 BeaconLightLogger >> filterByPackage: aPackageOrSymbol [
 
 	self addFilter: (LightFilterPackage newPackage: aPackageOrSymbol)
