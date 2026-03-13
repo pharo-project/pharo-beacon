@@ -132,8 +132,11 @@ FileLogger >> newStream [
 
 { #category : 'accessing' }
 FileLogger >> nextPutSerialized: aString [
+
 	super nextPutSerialized: aString.
-	self stream nextPut: self lineSeparator 
+	self stream 
+		nextPut: self lineSeparator;
+		flush
 ]
 
 { #category : 'accessing' }

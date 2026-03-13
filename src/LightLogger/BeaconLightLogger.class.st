@@ -156,6 +156,14 @@ BeaconLightLogger >> object: aVariable [
 ]
 
 { #category : 'accessing - output' }
+BeaconLightLogger >> sendToFile [
+
+	self sendToFile: ('./trace.txt' asFileReference
+		ensureDelete;
+		writeStream)
+]
+
+{ #category : 'accessing - output' }
 BeaconLightLogger >> sendToFile: aFile [
 
 	FileLogger new 
