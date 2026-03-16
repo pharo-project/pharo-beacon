@@ -122,27 +122,33 @@ BeaconLightLogger >> isTracing: aReceiver [
 ]
 
 { #category : 'accessing - loglevel' }
+BeaconLightLogger >> logLevel: aLevel [
+
+	logLevel := aLevel
+]
+
+{ #category : 'accessing - loglevel' }
 BeaconLightLogger >> logLevelDebug [
 
-	logLevel := 3
+	self logLevel: 3
 ]
 
 { #category : 'accessing - loglevel' }
 BeaconLightLogger >> logLevelInfo [
 
-	logLevel := 1
+	self logLevel: 1
 ]
 
 { #category : 'accessing - loglevel' }
 BeaconLightLogger >> logLevelTrace [
 
-	logLevel := 4
+	self logLevel: 4
 ]
 
 { #category : 'accessing - loglevel' }
 BeaconLightLogger >> logLevelWarning [
 
-	logLevel := 2
+	self logLevel: 2
 ]
 
 { #category : 'tracing - donotuse' }
