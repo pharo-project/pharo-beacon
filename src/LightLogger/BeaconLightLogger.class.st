@@ -26,7 +26,7 @@ BeaconLightLogger >> debug: aString [
 
 	(DebugSignal
 		fromContext: sender
-		message: aString)
+		message: aString asString)
 		emit
 ]
 
