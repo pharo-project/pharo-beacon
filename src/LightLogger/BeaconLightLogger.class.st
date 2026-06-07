@@ -65,6 +65,12 @@ BeaconLightLogger >> filterByClasses: aCollection [
 ]
 
 { #category : 'accessing - filtering' }
+BeaconLightLogger >> filterByHierarchyOfClass: aClass [
+
+	self filterByClasses: aClass withAllSubclasses
+]
+
+{ #category : 'accessing - filtering' }
 BeaconLightLogger >> filterByMethod: aMethod [
 
 	self addFilter: (LightFilterMethod newMethod: aMethod)
@@ -153,6 +159,7 @@ BeaconLightLogger >> logLevelWarning [
 
 { #category : 'tracing - donotuse' }
 BeaconLightLogger >> object: aVariable [
+
 	logLevel >= 3 ifFalse: [ ^ self ].
 
 	(TraceObjectSignal 
