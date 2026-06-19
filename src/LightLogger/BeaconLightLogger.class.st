@@ -93,6 +93,16 @@ BeaconLightLogger >> filterByPackages: aCollection [
 	aCollection do: [ :each | self filterByPackage: each ]
 ]
 
+{ #category : 'accessing - filtering' }
+BeaconLightLogger >> filterByProject: aBaselineClass [
+
+	aBaselineClass new project version packages 
+		do: [ :each |
+			(PackageOrganizer default packageNamed: each name ifAbsent: [ nil ])
+				ifNotNil: [ :aPackage | 
+					self filterByPackage: aPackage ] ]
+]
+
 { #category : 'tracing' }
 BeaconLightLogger >> info: aString [
 	| sender |
