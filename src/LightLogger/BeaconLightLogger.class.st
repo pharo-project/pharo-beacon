@@ -103,6 +103,12 @@ BeaconLightLogger >> filterByProject: aBaselineClass [
 					self filterByPackage: aPackage ] ]
 ]
 
+{ #category : 'accessing - filtering' }
+BeaconLightLogger >> filterBySelector: aSelector [
+
+	self addFilter: (LightFilterSelector newSelector: aSelector)
+]
+
 { #category : 'tracing' }
 BeaconLightLogger >> info: aString [
 	| sender |
