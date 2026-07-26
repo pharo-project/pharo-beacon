@@ -30,6 +30,20 @@ BeaconLightLogger >> debug: aString [
 		emit
 ]
 
+{ #category : 'tracing' }
+BeaconLightLogger >> debug: aString withArguments: arguments [ 
+	| sender |
+	
+	logLevel >= 3 ifFalse: [ ^ self ].
+	sender := thisContext sender.
+	(self isTracing: sender) ifFalse: [ ^ self ].
+
+	(DebugSignal
+		fromContext: sender
+		message: (aString asString format: arguments) )
+		emit
+]
+
 { #category : 'accessing' }
 BeaconLightLogger >> disable [
 	filters := nil.
@@ -120,6 +134,20 @@ BeaconLightLogger >> info: aString [
 	(InfoSignal
 		fromContext: sender
 		message: aString)
+		emit
+]
+
+{ #category : 'tracing' }
+BeaconLightLogger >> info: aString withArguments: arguments [
+	| sender |
+	
+	logLevel >= 1 ifFalse: [ ^ self ].
+	sender := thisContext sender.
+	(self isTracing: sender) ifFalse: [ ^ self ].
+
+	(InfoSignal
+		fromContext: sender
+		message: (aString asString format: arguments))
 		emit
 ]
 

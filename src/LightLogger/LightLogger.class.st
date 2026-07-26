@@ -57,6 +57,11 @@ LightLogger >> debug: aString [
 
 ]
 
+{ #category : 'tracing' }
+LightLogger >> debug: aString withArguments: arguments [
+
+]
+
 { #category : 'accessing' }
 LightLogger >> disable [
 
@@ -77,6 +82,10 @@ LightLogger >> error: anErrorOrString [
 
 { #category : 'tracing' }
 LightLogger >> info: aString [
+]
+
+{ #category : 'tracing' }
+LightLogger >> info: aString withArguments: arguments [
 ]
 
 { #category : 'testing' }
