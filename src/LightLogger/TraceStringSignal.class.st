@@ -30,7 +30,6 @@ TraceStringSignal >> message: aString [
 
 { #category : 'printing' }
 TraceStringSignal >> printOneLineContentsOn: stream [
-	| stream |
 
 	super printOneLineContentsOn: stream.
 	stream space.

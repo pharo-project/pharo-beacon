@@ -190,6 +190,17 @@ BeaconLightLogger >> logLevelInfo [
 ]
 
 { #category : 'accessing - loglevel' }
+BeaconLightLogger >> logLevelLabel [
+
+	logLevel = 1 ifTrue: [ ^ #info ].
+	logLevel = 2 ifTrue: [ ^ #warn ].
+	logLevel = 3 ifTrue: [ ^ #debug].
+	logLevel = 4 ifTrue: [ ^ #trace ].
+	
+	^ #none
+]
+
+{ #category : 'accessing - loglevel' }
 BeaconLightLogger >> logLevelTrace [
 
 	self logLevel: 4
